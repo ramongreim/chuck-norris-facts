@@ -1,0 +1,98 @@
+ext {
+
+    //Android Config
+    minSDK = 15
+    targetSDK = 28
+    compileSDK = 28
+
+    buildTools = '3.3.2'
+
+    // Kotlin
+    kotlinVersion = '1.3.21'
+
+    // Libraries
+    archVersion = '2.0.0'
+    appCompatVersion = '1.0.2'
+    materialVersion = '1.0.0'
+    recyclerVersion = '1.0.0'
+    vectorDrawableVersion = '1.0.0'
+    ktxVersion = '1.0.1'
+
+    okHttpVersion = '3.12.0'
+    gsonVersion = '2.5.0'
+    retrofitVersion = '2.5.0'
+    rxJavaVersion = '2.2.7'
+    rxKotlinVersion = '2.2.0'
+    rxAndroidVersion = '2.1.1'
+    koinVersion = '1.0.2'
+
+    timberVersion = '4.7.1'
+
+    flexboxVersion = '1.1.0'
+
+    // Test Libraries
+    androidTestVersion = '1.1.0'
+    jUnitVersion = '4.12'
+    mockitoVersion = '2.25.0'
+    mockitoKtVersion = '2.1.0'
+    dexmakerVersion = '2.21.0'
+    roboletricVersion = '4.2'
+
+    espressoVersion = '3.1.0'
+
+    kakaoVersion = '2.0.0'
+
+    dependencies = [
+            kotlin               : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion",
+
+            appCompat            : "androidx.appcompat:appcompat:$appCompatVersion",
+            recycler             : "androidx.recyclerview:recyclerview:$recyclerVersion",
+            vectorDrawable       : "androidx.vectordrawable:vectordrawable:$vectorDrawableVersion",
+            materialDesign       : "com.google.android.material:material:$materialVersion",
+            coreKtx              : "androidx.core:core-ktx:$ktxVersion",
+
+            rxJava               : "io.reactivex.rxjava2:rxjava:$rxJavaVersion",
+            rxKotlin             : "io.reactivex.rxjava2:rxkotlin:$rxKotlinVersion",
+            rxAndroid            : "io.reactivex.rxjava2:rxandroid:$rxAndroidVersion",
+
+            gson                 : "com.google.code.gson:gson:$gsonVersion",
+            retrofit             : "com.squareup.retrofit2:retrofit:$retrofitVersion",
+            retrofitRxJavaAdapter: "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion",
+            retrofitGsonConverter: "com.squareup.retrofit2:converter-gson:$retrofitVersion",
+
+            lifecycleRuntime     : "androidx.lifecycle:lifecycle-runtime:$archVersion",
+            lifecycleExtensions  : "androidx.lifecycle:lifecycle-extensions:$archVersion",
+
+            koin                 : "org.koin:koin-android:$koinVersion",
+            koinViewModel        : "org.koin:koin-androidx-viewmodel:$koinVersion",
+
+            timber               : "com.jakewharton.timber:timber:$timberVersion",
+
+            flexbox              : "com.google.android:flexbox:$flexboxVersion"
+    ]
+
+    testDependencies = [
+            androidTest         : "androidx.test:core:$androidTestVersion",
+            archTest            : "androidx.arch.core:core-testing:$archVersion",
+
+            jUnit               : "junit:junit:$jUnitVersion",
+            mockWebServer       : "com.squareup.okhttp3:mockwebserver:$okHttpVersion",
+
+            mockito             : "org.mockito:mockito-core:$mockitoVersion",
+            mockitoKt           : "com.nhaarman.mockitokotlin2:mockito-kotlin:$mockitoKtVersion",
+            mockitoDexmaker     : "com.linkedin.dexmaker:dexmaker-mockito:$dexmakerVersion",
+
+            roboletric          : "org.robolectric:robolectric:$roboletricVersion",
+
+            kotlinTest          : "org.jetbrains.kotlin:kotlin-test-junit:$kotlinVersion",
+            koinTest            : "org.koin:koin-test:$koinVersion",
+
+            espressoCore        : "androidx.test.espresso:espresso-core:$espressoVersion",
+            androidTestRunner   : "androidx.test:runner:$androidTestVersion",
+            androidTestRules    : "androidx.test:rules:$androidTestVersion",
+            androidTestExt      : "androidx.test.ext:junit:$androidTestVersion",
+
+            kakao                : "com.agoda.kakao:kakao:$kakaoVersion"
+    ]
+
+}
