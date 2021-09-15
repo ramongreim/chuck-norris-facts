@@ -1,2 +1,1 @@
-include ':app'
-rootProject.name = "Filmes Coroutines"
+include ':app', ':data', ':domain', ':test-utils'
