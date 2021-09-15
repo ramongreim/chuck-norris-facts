@@ -1,4 +1,4 @@
-package com.example.chucknorris_stone.ui.main
+package com.ramongreim.chucknorris_stone.ui.main
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
-import com.example.chucknorris_stone.R
+import com.ramongreim.chucknorris_stone.R
 import kotlinx.android.synthetic.main.main_fragment.*
 
 //cria o view model

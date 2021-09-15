@@ -1,4 +1,4 @@
-package com.example.chucknorris_stone
+package com.ramongreim.chucknorris_stone
 
 import org.junit.Test
 

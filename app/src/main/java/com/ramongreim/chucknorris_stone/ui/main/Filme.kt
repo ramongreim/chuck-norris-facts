@@ -1,4 +1,4 @@
-package com.example.chucknorris_stone.ui.main
+package com.ramongreim.chucknorris_stone.ui.main
 
 data class Filme (
     val id: Int,

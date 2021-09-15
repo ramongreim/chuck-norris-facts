@@ -1,4 +1,4 @@
-package com.example.chucknorris_stone.ui.main
+package com.ramongreim.chucknorris_stone.ui.main
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

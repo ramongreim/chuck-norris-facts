@@ -1,8 +1,8 @@
-package com.example.chucknorris_stone
+package com.ramongreim.chucknorris_stone
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.chucknorris_stone.ui.main.MainFragment
+import com.ramongreim.chucknorris_stone.ui.main.MainFragment
 //cria o fragmento
 class MainActivity : AppCompatActivity() {
 
