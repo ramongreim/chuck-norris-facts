@@ -2,7 +2,7 @@
 
 Toolstack
 
-  - Full Kotlin
+  -  Kotlin
   - Multi Module
   - Model View ViewModel Architecture (MVVM)
   - Koin for Dependency Injection
