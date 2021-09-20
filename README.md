@@ -1,14 +1,14 @@
 # Chuck Norris facts
 
-Toolstack
+## Toolstack
 
-  -  Kotlin
+  - Kotlin
   - Multi Module
   - Model View ViewModel Architecture (MVVM)
   - Koin for Dependency Injection
   - RxJava
   - Retrofit
-  - Mockito, Robolectric and Espresso for writing tests
+  - Mockito, Robolectric e Espresso usado para os testes
 
 
 ## Testes
