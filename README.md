@@ -13,6 +13,8 @@ Toolstack
 
 ## Testes
 
+Instalar JDKL 14 ou superior:  https://www.oracle.com/java/technologies/downloads/#jdk17-windows 
+
 **Executar testes unitários (debug + release):
 ```sh
 ./gradlew test
