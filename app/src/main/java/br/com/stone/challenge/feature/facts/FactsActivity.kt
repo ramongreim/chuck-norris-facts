@@ -64,7 +64,7 @@ class FactsActivity : AppCompatActivity() {
 
     private fun showInitialLayout() {
         emptyLayout.isVisible = true
-        txtEmptyTitle.setText(R.string.message_welcome)
+
     }
 
     private fun showLoading() {

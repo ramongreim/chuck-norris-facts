@@ -55,8 +55,7 @@
                 android:id="@+id/txtEmptyTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="@string/message_welcome" />
+                android:layout_marginTop="20dp" />
 
             <Button
                 android:id="@+id/btnSearchFact"

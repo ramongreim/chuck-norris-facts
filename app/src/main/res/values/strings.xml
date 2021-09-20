@@ -14,8 +14,6 @@
     <string name="title_share_url">Share URL</string>
 
     <string name="input_search_hint">Enter your search term</string>
-
-    <string name="message_welcome">Welcome to Chuck Norris Facts</string>
     <string name="message_no_results">No results found</string>
     <string name="button_search_fact">Search a fact</string>
 

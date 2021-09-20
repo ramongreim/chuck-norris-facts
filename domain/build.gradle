@@ -1,0 +1,21 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+
+dependencies {
+    testImplementation project(path: ':test-utils')
+
+    def dependencies = rootProject.ext.dependencies
+    def testDependencies = rootProject.ext.testDependencies
+
+    testImplementation testDependencies.jUnit
+    testImplementation testDependencies.mockito
+    testImplementation testDependencies.mockitoKt
+    testImplementation testDependencies.kotlinTest
+
+    implementation dependencies.kotlin
+    implementation dependencies.rxJava
+    implementation dependencies.koin
+}
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
